@@ -1,3 +1,15 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+const App = () => (
+  <main className="relative">
+    NAV
+    <section className="xl:padding-1 wide:padding-r padding-b">HERO</section>
+    <section className="padding">POPULAR PRODUCTS</section>
+    <section className="padding">SUPER QUALITY</section>
+    <section className="padding-x py-10">SERVICES</section>
+    <section className="padding">SPECIAL OFFERS</section>
+    <section className="padding">CUSTOMER REVIEWS</section>
+    <section className="padding">SUBSCRIBE</section>
+    <section className="padding">FOOTER</section>
+  </main>
+);
+
+export default App;
