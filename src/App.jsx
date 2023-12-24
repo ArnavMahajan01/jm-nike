@@ -6,9 +6,9 @@ const App = () => (
     <section className="padding">SUPER QUALITY</section>
     <section className="padding-x py-10">SERVICES</section>
     <section className="padding">SPECIAL OFFERS</section>
-    <section className="padding">CUSTOMER REVIEWS</section>
-    <section className="padding">SUBSCRIBE</section>
-    <section className="padding">FOOTER</section>
+    <section className="bg-pale-blue padding">CUSTOMER REVIEWS</section>
+    <section className="padding-x sm:py-32 py-16 w-full">SUBSCRIBE</section>
+    <section className="bg-black padding-x padding-t pb-8">FOOTER</section>
   </main>
 );
 
