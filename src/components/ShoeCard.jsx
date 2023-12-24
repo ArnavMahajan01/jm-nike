@@ -2,7 +2,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImage }) => {
   const handleClick = () => {
     if (bigShoeImage !== imgURL.bigShoe) changeBigShoeImage(imgURL.bigShoe);
   };
-  console.log("Big Shoe" + bigShoeImage, "Big Shoe Image" + imgURL.bigShoe);
+
   return (
     <div
       className={`border-2 rounded-xl ${
