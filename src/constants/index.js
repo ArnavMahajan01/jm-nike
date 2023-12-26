@@ -34,12 +34,12 @@ export const shoes = [
     bigShoe: bigShoe1,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
-  },
-  {
     thumbnail: thumbnailShoe3,
     bigShoe: bigShoe3,
+  },
+  {
+    thumbnail: thumbnailShoe2,
+    bigShoe: bigShoe2,
   },
 ];
 
